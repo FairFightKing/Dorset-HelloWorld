@@ -1,5 +1,10 @@
 /* setup */
 /* AKA remove default browser css */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -34,3 +39,23 @@ a {
 
 /* ---------- STYLE ---------- */
 
+header{
+    height: 100vh;
+    background-image: url("../img/12yuoy7p8sr21.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    width: 20%;
+    padding: 50px;
+    background: rgba(34,34,34,.4);
+    text-align: center;
+}
