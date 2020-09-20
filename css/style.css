@@ -7,24 +7,24 @@
 }
 body {
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Ubuntu, sans-serif;
     margin: 0;
     background: #0a0a0c;
 }
 
 h1{
-    font-family: 'Russo One', sans-serif;
+    font-family: Ubuntu, sans-serif;
 }
 
 h2, h3, h4, ul, li, a{
-    font-family: 'Source Sans Pro Black', sans-serif;
+    font-family: Ubuntu, sans-serif;
 }
 
 h1, h2, h3, h4, ul, p, li, a {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-weight: lighter;
+    font-weight: normal;
     color: #ffffff;
 }
 
@@ -49,7 +49,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 50px;
 }
@@ -97,5 +97,45 @@ header{
     color: white;
 }
 #About, #Contact{
-    height: 100vh;
+    height: 90vh;
+    border-bottom: solid 2px white;
+    text-align: center;
+    padding: 1px;
+
+}
+#About{
+    background-image: url("../img/16542.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .8;
+
+}
+.content{
+    height: 60vh;
+    width: 80%;
+    background: rgba(0,0,0,.3);
+    margin: 10vh auto 0;
+    border-radius: 30px;
+    border: solid 2px #0a0a0c;
+}
+footer{
+    height: 30vh;
+}
+
+#About h2, #Contact h2{
+    margin: 10vh auto 0;
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(0,0,0,.4);
+    width: 300px;
+}
+
+#Contact{
+    background-image: url("../img/overwatch___genji_wallpaper_by_mikoyanx-d9ggubp.png");
+    background-size: cover;
+    background-position: center;
+    opacity: .8;
 }
