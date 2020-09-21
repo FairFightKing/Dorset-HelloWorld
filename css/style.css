@@ -111,7 +111,7 @@ header{
     opacity: .8;
 
 }
-.content{
+.container{
     height: 60vh;
     width: 80%;
     background: rgba(0,0,0,.3);
@@ -119,8 +119,12 @@ header{
     border-radius: 30px;
     border: solid 2px #0a0a0c;
 }
-footer{
-    height: 30vh;
+.content{
+    margin: 50px;
+    height: calc(100% - 100px);
+}
+#About p{
+    margin: 30px auto;
 }
 
 #About h2, #Contact h2{
@@ -138,4 +142,35 @@ footer{
     background-size: cover;
     background-position: center;
     opacity: .8;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 500px;
+    margin: 50px auto;
+    color: white;
+    background: rgba(0,0,0,.6);
+    border-radius: 50px;
+    border: solid 2px black;
+}
+
+textarea{
+    width: 60%;
+    height: 100px;
+}
+footer{
+    height: 30vh;
+}
+footer p{
+    padding-top: 100px;
+    text-align: center;
+}
+footer h2{
+    margin-top: 30px;
+    text-align: center;
 }
